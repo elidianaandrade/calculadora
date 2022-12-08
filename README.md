@@ -1,5 +1,5 @@
 # Calculadora React
-## 🔵 Sobre o projeto
+## ➗ Sobre o projeto
 Calculadora em React, desenvolvida como Desafio de Projeto da [Digital Innovation One](https://www.dio.me/).
 ## 💻 Tecnologias
 [![React.JS](https://img.shields.io/badge/React.JS-000?style=for-the-badge&logo=react&logoColor=7520FF)](https://pt-br.reactjs.org/docs/getting-started.html)
