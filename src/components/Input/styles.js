@@ -1,34 +1,41 @@
 import styled from 'styled-components';
 
 export const InputContainer = styled.div`
-    width: 100%;
+    width: 22rem;
     height: 100%;
+    margin: 2rem .2rem;
+    padding: .8rem;
 
-    background: #313131;  
-    border: 1rem solid #313131; 
-    border-radius: .8rem;
-    box-shadow: .01rem .07rem .2rem .001rem #3E4144;
+    background: transparent;  
+    border-radius: .6rem;
+    box-shadow: inset .01rem .07rem .2rem .001rem var(--gray-100);
 
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
-    font-size: 1.25rem;
-    font-family: 'Inter';
     
     input {
         width: 100%;
-        height: 6rem;
+        height: 4.5rem;
+        padding: .7rem;
+
         background-color: #B0B8BA;
         border: 0;
         border-radius: .4rem;
-        box-shadow: inset .01rem .07rem .2rem .001rem #3E4144;
+        box-shadow: inset .01rem .07rem .2rem .001rem var(--gray-500);
+
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        padding: 0 10px;
-        font-size: 24px;
-        font-family: 'Inter';
-        color: #FFFFFF;
+
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: var(--gray-400);
+    }
+
+    input:focus {
+        box-shadow: inset .01rem .07rem .2rem .001rem var(--gray-500);
+        outline: 0;
     }
 `
